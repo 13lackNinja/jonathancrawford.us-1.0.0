@@ -1,0 +1,15 @@
+#logo {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 170px;
+  margin: 25px auto;
+  animation: fade-in .7s;
+  z-index: 1;
+}
+
+@keyframes fade-in {
+  from {opacity: 0;}
+  to {opacity: 1.0}
+}
